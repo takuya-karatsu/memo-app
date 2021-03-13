@@ -1,3 +1,26 @@
+.register-form {
+  background-color: rgba(225, 230, 230, 0.4);
+}
+
+.form-header {
+  text-align: center;
+}
+
+.form-group {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.input-default {
+  height: 40px;
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 .register-btn {
   margin-top: 10px;
+  text-align: center;
 }
