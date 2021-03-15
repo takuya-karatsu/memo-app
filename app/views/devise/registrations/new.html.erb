@@ -20,11 +20,6 @@
       <%= f.email_field :email, class:"mb-3 input-default"%>
     </div>
 
-    <%# <div class="field">
-      <label>Eメール</label><br />
-      <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-    <%# </div> %>
-
     <div class="form-group">
       <div class='form-text-wrap'>
         <label class="form-text mb-2">パスワード（6文字以上）</label>
@@ -33,11 +28,6 @@
       <%= f.password_field :password, class:"mb-3 input-default"%>
     </div>
 
-    <%# <div class="field">
-      <label>パスワード（6文字以上）</label><br />
-      <%= f.password_field :password, autocomplete: "new-password" %>
-    <%# </div> %>
-
     <div class="form-group">
       <div class='form-text-wrap'>
         <label class="form-text mb-2">パスワード（確認用）</label>
@@ -45,11 +35,6 @@
       </div>
       <%= f.password_field :password_confirmation, class:"mb-3 input-default"%>
     </div>
-
-    <%# <div class="field">
-      <label>パスワード（確認用）</label><br />
-      <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
-    <%# </div> %>
 
     <div class="register-btn mb-5">
       <%= f.submit "ユーザー登録", class:"btn btn-primary" %>
